@@ -47,7 +47,7 @@ const Portfolio = () => {
         title: "Portfolio using React.js",
         img: IMG4,
         description:
-          "Personal website showcasing my passions, projects, and personality. Explore my journey through engaging content and interactive features.",
+        "Personal website showcasing my passions, projects, and personality. Explore my journey through engaging content and interactive features.",
         technologies: "Html | CSS | Javascript | React. Js | Typescript",
         link: "https://subhranta-portfolio.vercel.app/",
         github: "https://github.com/Subhranta703/subhranta-portfolio",
@@ -73,7 +73,7 @@ const Portfolio = () => {
               <a
                 href={pro.github}
                 target="_blank"
-                className="btn"
+                className="btn "
                 rel="noreferrer"
               >
                 GitHub
