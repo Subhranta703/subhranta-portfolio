@@ -2,7 +2,7 @@
 
 [🔗Live Demo🔗]()
 
-![Protfolio Website](src/assets/Portfolio%20preview.png)
+
 
 <div align="center">
 
