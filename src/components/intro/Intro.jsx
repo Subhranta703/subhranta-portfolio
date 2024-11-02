@@ -24,6 +24,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
+<<<<<<< HEAD
               <small>1+ Years </small>
             </article>
             <article className="about__card">
@@ -34,6 +35,19 @@ const Intro = () => {
           </div>
           <p>
           1+ Years experienced  Mern Stack  Developer skilled in designing and implementing responsive user interfaces using React concepts. Proficient in translating designs and wireframes into high-quality code. Experienced in writing application interface code in JavaScript and React JS workflows, monitoring and maintaining frontend performance, and troubleshooting and debugging to enhance overall performance.
+=======
+              <small>1+ Year
+              </small>
+            </article>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
+              <h5> Freelance Projects</h5>
+              <small>2 Completed Projects</small>
+            </article>
+          </div>
+          <p>
+          Full Stack Developer with over a year of experience specializing in frontend development, proficient in designing and implementing responsive user interfaces using React. Skilled in translating complex designs and wireframes into high-quality, efficient code to optimize user experience. Experienced in JavaScript, React workflows, backend integration, and RESTful APIs. Capable of monitoring frontend performance, troubleshooting, and enhancing overall application performance. Recent projects include building full-stack applications with a focus on speed, reliability, and responsive design.
+>>>>>>> master
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -2,7 +2,11 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/IMG1.png";
 import IMG2 from "../../assets/IMG4.png";
+<<<<<<< HEAD
 import IMG3 from "../../assets/IMG2.png";
+=======
+import IMG3 from "../../assets/IMG2.jpg";
+>>>>>>> master
 import IMG4 from "../../assets/IMG3.png";
 // import IMG5 from "../../assets/Jokes Project.jpg";
 // import IMG6 from "../../assets/Project4.jpg";
@@ -24,15 +28,22 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Music player ",
+<<<<<<< HEAD
       img: IMG3,
       description:
         "Dedicated developer creating an ad-free music player using HTML, CSS, and JS, offering a seamless and enjoyable listening experience for all music enthusiasts. Enjoy your favorite tunes hassle-free!",
+=======
+      img: IMG2,
+      description:
+        "Dedicated developer creating an ad-free music player  offering a seamless and enjoyable listening experience for all music enthusiasts.",
+>>>>>>> master
       technologies: "HTML | CSS | JavaScript | Tailwind css",
       link: "https://github.com/Subhranta703/Music-Player/deployments/github-pages",
       github: "https://github.com/Subhranta703/Music-Player",
     },
     {
       id: 3,
+<<<<<<< HEAD
       title: "Shopping management System",
       img: IMG2,
       description: "Responsive online store with dynamic cart for fresh produce and household essentials. Enjoy seamless shopping. Built with JavaScript, HTML, CSS.",
@@ -52,6 +63,27 @@ const Portfolio = () => {
         link: "https://subhranta-portfolio.vercel.app/",
         github: "https://github.com/Subhranta703/subhranta-portfolio",
       },
+=======
+      title: "Weather App",
+      img: IMG3,
+      description: "Responsive Weather app with weather forecast for real time  and date,time showing in GMT . Enjoy seamless 7 Day's forecast. Built with JavaScript, React.js, Tailwindcss.",
+      technologies: "JavaScript | React.js ",
+      link: "https://github.com/Subhranta703/Weather_App",
+      github: "https://weather-app-topaz-kappa.vercel.app/",
+    },
+    
+    // {
+    //   
+    //     id: 4,
+    //     title: "Portfolio using React.js",
+    //     img: IMG4,
+    //     description:
+    //       "Personal website showcasing my passions, projects, and personality. Explore my journey through engaging content and interactive features.",
+    //     technologies: "Javascript | React. Js | Typescript",
+    //     link: "https://subhranta-portfolio.vercel.app/",
+    //     github: "https://github.com/Subhranta703/subhranta-portfolio",
+    //   },
+>>>>>>> master
   ];
   return (
     <section id="portfolio">
@@ -73,7 +105,11 @@ const Portfolio = () => {
               <a
                 href={pro.github}
                 target="_blank"
+<<<<<<< HEAD
                 className="btn "
+=======
+                className="btn"
+>>>>>>> master
                 rel="noreferrer"
               >
                 GitHub
@@ -81,7 +117,11 @@ const Portfolio = () => {
               <a
                 href={pro.link}
                 target="_blank"
+<<<<<<< HEAD
                 className="btn btn-primary"
+=======
+                className="btn btn-primary "
+>>>>>>> master
                 rel="noreferrer"
               >
                 Live Demo

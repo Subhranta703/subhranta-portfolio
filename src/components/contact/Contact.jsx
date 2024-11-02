@@ -16,7 +16,11 @@ const Contact = () => {
         'service_k2qawqh',
         'template_c6rkpn6',
         formRef.current,
+<<<<<<< HEAD
         'khX7K7ebhIeOy3YwHki'
+=======
+        'X7K7ebhIeOy3YwHki'
+>>>>>>> master
       )
       .then(
         (result) => {
