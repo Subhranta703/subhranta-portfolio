@@ -1,30 +1,27 @@
 import './contact.css';
 
 import React, { useRef, useState } from 'react';
-
 import { MdOutlineEmail } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
   const formRef = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setMessage(true);
+    
     emailjs
       .sendForm(
         'service_k2qawqh',
         'template_c6rkpn6',
         formRef.current,
-<<<<<<< HEAD
         'khX7K7ebhIeOy3YwHki'
-=======
-        'X7K7ebhIeOy3YwHki'
->>>>>>> master
       )
       .then(
         (result) => {
           console.log(result.text);
+          setMessage(true); // Move the setMessage inside the success callback
         },
         (error) => {
           console.log(error.text);
@@ -33,11 +30,12 @@ const Contact = () => {
 
     e.target.reset();
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
       <h5>
-        I do receive your messages and will respond asap if the valid email is
+        I do receive your messages and will respond ASAP if a valid email is
         provided :)
       </h5>
       <h2>Contact Me</h2>
@@ -58,7 +56,7 @@ const Contact = () => {
             required
           />
           <input
-            type="text"
+            type="email" // Changed type to email for validation
             placeholder="Your Email"
             name="user_email"
             required

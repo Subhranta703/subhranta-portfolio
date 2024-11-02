@@ -9,11 +9,7 @@ const Experience = () => {
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-<<<<<<< HEAD
           <h3>Full-Stack Development</h3>
-=======
-          <h3>Web Development</h3>
->>>>>>> master
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -21,7 +17,6 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-<<<<<<< HEAD
               <h4>JavaScript, Java </h4>
             </article>
             <article className="experience__details">
@@ -35,21 +30,6 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>React Js , Next Js</h4>
-=======
-              <h4>JavaScript, Java , C </h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SASS / SCSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstrap, Tailwind</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React.Js ,  Next.Js</h4>
->>>>>>> master
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -57,11 +37,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-<<<<<<< HEAD
               <h4>MonogoDB , mySql</h4>
-=======
-              <h4>Firebase</h4>
->>>>>>> master
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -69,21 +45,12 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-<<<<<<< HEAD
               <h4>Python , C </h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Data Strtucture algorithm </h4>
             </article>
-=======
-              <h4>Responsive Design</h4>
-            </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux, Redux-toolkit, Context API</h4>
-            </article> */}
->>>>>>> master
           </div>
         </div>
       </div>

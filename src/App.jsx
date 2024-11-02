@@ -7,11 +7,7 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 // import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
-<<<<<<< HEAD
-
-=======
 import Work from './components/work/Work'; // Ensure this path is correct
->>>>>>> master
 
 const App = () => {
   return (
@@ -20,23 +16,13 @@ const App = () => {
       <Topbar />
       <Intro />
       <Experience />
-<<<<<<< HEAD
-=======
       <Work />
->>>>>>> master
       <Portfolio />
       {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>
-<<<<<<< HEAD
-  )
+  );
 }
 
-export default App
-=======
-  );
-};
-
 export default App;
->>>>>>> master
