@@ -31,9 +31,7 @@
         </tr>
      </thead>
     <tbody>
-         <tr>
-            <td><a href="[https://github.com/Rasif-Taghizada/My-portfolio](https://subhranta-portfolio.vercel.app/)"</a>Project</td>
-        </tr>
+         
     </tbody>
 </table>
 
@@ -66,5 +64,5 @@ The page will reload if you make edits.
 <br />
 Feel free to contribute to this repo.
 
-### Show some ❤️&nbsp; by giving the star :star: to this repository!!
+
 
