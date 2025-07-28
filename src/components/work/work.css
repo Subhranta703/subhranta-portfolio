@@ -1,127 +1,131 @@
-/* work.css */
+/* General section styling */
+.work {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b); /* dark blue to slate */
+  color: white;
+  padding: 50px 20px;
+}
 
-/* General Styling */
-.section-title {
+/* Section heading */
+.work h2 {
   font-size: 2.5rem;
-  font-weight: 600;
-  color: #333;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 40px;
+  animation: fadeInDown 1s ease forwards;
 }
 
-.text-4xl {
-  font-size: 3rem;
-  color: #4a4a4a;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+/* Timeline container override */
+.vertical-timeline-element-content {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: fadeInUp 1s ease forwards;
 }
 
-#resume {
-   /* Using the variable */
-  padding: 2rem 0;
-  border-radius: 8px;
+/* Icon container */
+/* Fix the alignment of the icon inside the vertical timeline */
+.vertical-timeline-element-icon svg {
+  display: block;
+  width: 24px;
+  height: 43px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
 }
 
-/* Vertical Timeline Styling */
-.vertical-timeline {
-  background-color: var(--color-bg-variant); /* Same background as portfolio */
-  padding: 2rem;
-  border-radius: 8px;
-}
 
-.vertical-timeline-element--work {
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 1.5rem;
-  background-color: #ffffff; /* Keeping the element's background white */
-  color: #4a4a4a;
-  transition: transform 0.2s;
-}
-
-.vertical-timeline-element--work:hover {
-  transform: translateY(-5px);
-}
-
+/* Experience title and company */
 .vertical-timeline-element-title {
-  font-size: 1.75rem;
-  font-weight: 500;
-  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .vertical-timeline-element-subtitle {
-  font-size: 1.2rem;
-  color: #6b6b6b;
-  margin-bottom: 1rem;
-}
-
-.vertical-timeline-element--work p {
-  margin: 0.5rem 0;
   font-size: 1rem;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+/* Description and skill layout */
+.experience-description {
+  margin-bottom: 10px;
   line-height: 1.6;
-  color: #555;
 }
 
-/* Badge Styling */
-.main-badge {
-  background-color: #007bff;
-  color: #ffffff;
-  font-size: 0.875rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 50px;
-  display: inline-block;
-  margin: 0.25rem;
-}
-
-.experience-badge {
-  background-color: #28a745;
-  color: #ffffff;
-  font-size: 0.875rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 50px;
-  display: inline-block;
-  margin: 0.25rem;
-}
-
-/* Icon Styling */
-.experience-icon {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-
-.vertical-timeline-element-icon {
-  background-color: #414345;
-  color: #fff;
-  font-size: 1.5rem;
+/* Skill badges */
+.experience-skills {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
 }
 
-/* Responsive Design */
+.skill-badge {
+  background: #0ea5e9;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Responsive design */
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 2rem;
-  }
-
-  .text-4xl {
-    font-size: 2.5rem;
-  }
-
-  .vertical-timeline-element--work {
-    padding: 1rem;
+  .vertical-timeline-element-content {
+    padding: 16px;
   }
 
   .vertical-timeline-element-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
-  .vertical-timeline-element-subtitle {
-    font-size: 1rem;
+  .work h2 {
+    font-size: 2rem;
   }
 
-  .main-badge, .experience-badge {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.6rem;
+  .experience-skills {
+    justify-content: center;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
