@@ -1,8 +1,8 @@
 import './contact.css';
 
-import React, { useRef, useState } from 'react';
-import { MdOutlineEmail } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
+import { MdOutlineEmail } from 'react-icons/md';
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
@@ -13,10 +13,10 @@ const Contact = () => {
     
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_q4pku8h',
+        'template_xpiremr',
         formRef.current,
-        'khX7K7ebhIeOy3YwHki'
+        'gITPMVNjdvQSdW42J'
       )
       .then(
         (result) => {
@@ -48,30 +48,35 @@ const Contact = () => {
             <a href="mailto:subhrantanayak6535@gmail.com">Send a message</a>
           </article>
         </div>
-        <form ref={formRef} onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Your Full Name"
-            name="user_name"
-            required
-          />
-          <input
-            type="email" // Changed type to email for validation
-            placeholder="Your Email"
-            name="user_email"
-            required
-          />
-          <textarea
-            placeholder="Your message"
-            rows="7"
-            name="message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
-        </form>
+       {!message ? (
+  <form ref={formRef} onSubmit={handleSubmit}>
+    <input
+      type="text"
+      placeholder="Your Full Name"
+      name="user_name"
+      required
+    />
+    <input
+      type="email"
+      placeholder="Your Email"
+      name="user_email"
+      required
+    />
+    <textarea
+      placeholder="Your message"
+      rows="7"
+      name="message"
+      required
+    ></textarea>
+    <button type="submit" className="btn btn-primary">
+      Send Message
+    </button>
+  </form>
+) : (
+  <h4 style={{ marginTop: "2rem" }}>Thank you! I will reach out soon 🙂</h4>
+)}
+
+
       </div>
     </section>
   );

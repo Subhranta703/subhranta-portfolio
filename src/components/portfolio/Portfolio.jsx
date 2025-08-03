@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/IMG1.png";
 import IMG3 from "../../assets/IMG2.jpg";
 import IMG2 from "../../assets/IMG2.png";
-import IMG4 from "../../assets/IMG3.png";
+//import IMG4 from "../../assets/IMG3.png";
 import React from "react";
 
 // Portfolio function
