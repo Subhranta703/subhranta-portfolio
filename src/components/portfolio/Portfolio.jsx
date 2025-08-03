@@ -1,8 +1,8 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/IMG1.png";
-import IMG2 from "../../assets/IMG4.png";
-import IMG3 from "../../assets/IMG2.png";
+import IMG3 from "../../assets/IMG2.jpg";
+import IMG2 from "../../assets/IMG2.png";
 import IMG4 from "../../assets/IMG3.png";
 import React from "react";
 
@@ -11,32 +11,32 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "AI Image Generator with React.js",
+      title: "Student Productivity Hub (Hackathon Based Project)",
       img: IMG1,
       description:
-        "Empower your creativity with our React.js AI image generator, fueled by ChatGPT API, bringing imagination to life effortlessly.",
-      technologies: "HTML | CSS | JavaScript | React.js",
-      link: "https://ai-image-generation-seven.vercel.app/",
-      github: "https://github.com/Subhranta703/Ai-Image-Generation",
+        "All-in-one AI-powered productivity platform for students, featuring notes summarization, task management, timetables, and smart study assistance.",
+      technologies: "React.js | TailwindCSS | JavaScript | HTML | CSS | Gemini AI API",
+      link: "https://hack-suiit.vercel.app/",
+      github: "https://github.com/Subhranta703/hack_suiit",
     },
     {
       id: 2,
-      title: "Music Player",
+      title: "Skilled Matched ",
       img: IMG2,
       description:
-        "Dedicated developer creating an ad-free music player offering a seamless and enjoyable listening experience for all music enthusiasts.",
-      technologies: "HTML | CSS | JavaScript | Tailwind CSS",
-      link: "https://github.com/Subhranta703/Music-Player/deployments/github-pages",
-      github: "https://github.com/Subhranta703/Music-Player",
+        "AI-powered career assistant that helps users analyze resumes, explore personalized job roles, generate cover letters, and follow structured learning roadmaps — all in one platform.",
+      technologies: "React.js | Tailwind CSS | Node.js | Express | MongoDB | Google Gemini API",
+      link: "https://skilled-matched.vercel.app/",
+      github: "https://github.com/Subhranta703/SkilledMatched",
     },
     {
       id: 3,
-      title: "Shopping Management System",
-      img: IMG2,
-      description: "Responsive online store with dynamic cart for fresh produce and household essentials. Enjoy seamless shopping. Built with JavaScript, HTML, CSS.",
-      technologies: "HTML | CSS | JavaScript",
-      link: "https://github.com/Subhranta703/shopping-management-system",
-      github: "https://github.com/Subhranta703/shopping-management-system/deployments/github-pages",
+      title: "Drive Storage Management",
+      img: IMG3,
+      description: "Role-based file storage system for students and teachers. Upload, view, and share documents securely. Built for collaborative academic environments with subject-based folders and download links.",
+      technologies: "MERN Stack | Cloudinary | JWT | Tailwind CSS | EJS",
+      link: "https://github.com/Subhranta703/Drive-storage-Management-",
+      github: "https://github.com/Subhranta703/Drive-storage-Management-",
     },
     // {
     //   id: 4, // Ensure this id is unique
